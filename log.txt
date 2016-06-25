@@ -1,14 +1,2 @@
-Na linha 1 o texto era saldo:Sat Jun 25 00:12:21 2016
- - erro de balanco na linha 1
-Na linha 26 o texto era errorSat Jun 25 00:12:21 2016
- - erro de balanco na linha 26
-Na linha 27 o texto era errorSat Jun 25 00:12:21 2016
- - erro de balanco na linha 27
-Na linha 28 o texto era errorSat Jun 25 00:12:21 2016
- - erro de balanco na linha 28
-Na linha 37 o texto era errorSat Jun 25 00:12:21 2016
- - erro de balanco na linha 37
-Na linha 38 o texto era errorSat Jun 25 00:12:21 2016
- - erro de balanco na linha 38
-Na linha 39 o texto era errorSat Jun 25 00:12:21 2016
- - erro de balanco na linha 39
+25/6/2016 - erro de balanco na linha 26
+25/6/2016 - erro de balanco na linha 35

@@ -34,11 +34,15 @@ int main() {
 			scanf("%f", &despesaValor);
 			totalDespesa += despesaValor;
 			quantidadeDespesas++;
-		} else {
-			fprintf(stderr, "Na linha %d o texto era %s", linha, operacao);
-		    time_t t;
-		    time(&t);
-			fprintf(stderr, "%s - erro de balanco na linha %d\n", ctime(&t), linha);
+		} else if (strcmp(operacao, "error")  == 0) {
+			scanf("%s", &operacao);
+			scanf("%s", &operacao);
+		    // time_t t;
+		    // time(&t);
+			char minhaString[30];
+			time_t t = time(NULL);
+			struct tm tm = *localtime(&t);
+			fprintf(stderr, "%d/%d/%d - erro de balanco na linha %d\n", tm.tm_mday, tm.tm_mon+1, tm.tm_year+1900, linha );
 		}
 	}
 
