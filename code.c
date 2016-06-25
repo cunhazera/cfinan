@@ -16,6 +16,7 @@ int main() {
 	float totalDespesa = 0;
 	int saldoInicial = 0;
 	int linha = 0;
+	float totalEmpresa = 0;
 
 	while( scanf("%s", operacao) != EOF ){
 		linha++;
@@ -46,8 +47,11 @@ int main() {
 		}
 	}
 
+	totalEmpresa = saldoInicial + (totalReceita - totalDespesa);
+
 	fprintf(stdout, "Quantidade de receita: %d, VALOR DA RECEITA %.2f \n", quantidadeReceitas, totalReceita);
 	fprintf(stdout, "Quantidade de despesa: %d, VALOR DA DESPESA %.2f \n", quantidadeDespesas, totalDespesa);
+	fprintf(stdout, "Saldo final da empresa: %.2f \n", totalEmpresa);
 
 	return 0;
 }

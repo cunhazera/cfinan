@@ -1,3 +1,4 @@
 saldo: 10000
 Quantidade de receita: 29, VALOR DA RECEITA 722.95 
 Quantidade de despesa: 5, VALOR DA DESPESA 475.20 
+Saldo final da empresa: 10247.75 
