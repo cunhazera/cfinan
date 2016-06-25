@@ -38,8 +38,6 @@ int main() {
 		} else if (strcmp(operacao, "error")  == 0) {
 			scanf("%s", &operacao);
 			scanf("%s", &operacao);
-		    // time_t t;
-		    // time(&t);
 			char minhaString[30];
 			time_t t = time(NULL);
 			struct tm tm = *localtime(&t);
